@@ -1,11 +1,15 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(255, 247, 175);
   }
   
   h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);                                                                                     
   }
-  
+  h2 {
+    color: rgb(255, 255, 255);
+    background-color:rgba(147, 113, 0, 0.667)
+  }
+  /* CLASS */
   .center {
     text-align: center;
   }
@@ -13,7 +17,12 @@ body {
   .fonte-verde {
     color: green
   }
-   #para {
+  /* ID */
+  #para {
     font-family: verdana;
     font-size: 20px;
   }
+  div { width: 1250px; height: 100px; background-color: red; animation: changeColor 1s infinite; } 
+  
+  @-webkit-keyframes changeColor { 0% {background-color: red;} 25% {background-color: yellow;} 50% {background-color: blue;} 100% {background-color: green;} }
+
